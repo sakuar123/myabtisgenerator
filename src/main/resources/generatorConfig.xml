@@ -15,6 +15,10 @@
 <!--        <plugin type="org.mybatis.generator.plugins.LombokPlugin">-->
 <!--            <property name="hasLombok" value="true"/>-->
 <!--        </plugin>-->
+        <!--直接指向项目的插件地址也会报错-->
+<!--        <plugin type="com.example.myabtisgenerator.plugs.LombokPlugin">-->
+<!--            <property name="hasLombok" value="true"/>-->
+<!--        </plugin>-->
         <commentGenerator>
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
             <property name="suppressAllComments" value="true"/>
