@@ -1,0 +1,20 @@
+#修改端口号
+server:
+  port: 8011
+#数据库连接以及redis配置
+spring:
+  datasource:
+    #数据库连接url
+    url: jdbc:mysql://localhost:3306/tm?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    #用户名
+    username: sakura
+    #密码
+    password: sakura
+    #指定连接驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    #指定数据类型
+    database: mysql
+
+
+
